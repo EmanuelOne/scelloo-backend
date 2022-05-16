@@ -33,8 +33,3 @@ export default class CartService {
     res.status(201).json({ product });
   }
 }
-// cartRoute.post('/', async (req, res) => {
-
-//   await ProductRepository.save(product);
-//   res.json({ product });
-// });
