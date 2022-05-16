@@ -16,5 +16,7 @@ export const DB = new DataSource({
   entities: [Product, Coupon],
   migrations: [],
   subscribers: [],
-  ssl: process.env.NODE_ENV === 'development' ? false : true,
+  ssl: {
+    rejectUnauthorized: false,
+  },
 });
