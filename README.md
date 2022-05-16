@@ -1,4 +1,4 @@
-# Scelloo Project Build with Express,Typescript,TypeORM and Postgres
+# Scelloo Project Built with Express,Typescript,TypeORM and Postgres
 
 ## Steps to run the project:
 
